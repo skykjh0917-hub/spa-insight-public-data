@@ -1,0 +1,12 @@
+{
+  "days": [
+    {
+      "trading_date": "20261026",
+      "generated_at_kst": "2026-10-26T14:47:05.381589+09:00",
+      "run_sequence": 2,
+      "path": "archive/20261026.json",
+      "intraday_count": 5,
+      "swing_count": 1
+    }
+  ]
+}

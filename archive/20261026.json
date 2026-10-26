@@ -1,0 +1,226 @@
+{
+  "schema_version": "spa-public-scores-v1",
+  "run": {
+    "tracking_run_id": "5072a02c-bdbb-457c-a66f-17d182f60ab1",
+    "trading_date": "20261026",
+    "generated_at": "2026-10-26T05:47:05.381589+00:00",
+    "generated_at_kst": "2026-10-26T14:47:05.381589+09:00",
+    "run_sequence": 2
+  },
+  "events": {
+    "intraday": [
+      {
+        "stock_name": "빅웨이브로보틱스",
+        "stock_code": "0035S0",
+        "final_score": 73.87947368886029,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 93.10000000000001
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 50.0
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 78.19148493076801
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "available",
+            "evaluation_score": 62.60650391566958
+          }
+        ]
+      },
+      {
+        "stock_name": "앤로보틱스",
+        "stock_code": "138360",
+        "final_score": 75.61273333194602,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 85.86170212765958
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 76.38568761473543
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 75.0
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 42.69310981156667
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "missing",
+            "evaluation_score": null
+          }
+        ]
+      },
+      {
+        "stock_name": "유니테크노",
+        "stock_code": "241690",
+        "final_score": 68.72659374949261,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 65.79242441209406
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 60.69674229084051
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 97.2459313747216
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 66.86950115845322
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "missing",
+            "evaluation_score": null
+          }
+        ]
+      },
+      {
+        "stock_name": "루닛",
+        "stock_code": "328130",
+        "final_score": 83.14551185271829,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 48.88120658661292
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 97.28024042073629
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 95.69053708439898
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "available",
+            "evaluation_score": 100.0
+          }
+        ]
+      },
+      {
+        "stock_name": "컨텍",
+        "stock_code": "451760",
+        "final_score": 90.72971418386567,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 78.90425531914894
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 99.35734463276835
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 77.79014025820364
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "missing",
+            "evaluation_score": null
+          }
+        ]
+      }
+    ],
+    "week": [
+      {
+        "stock_name": "삼성E&A",
+        "stock_code": "028050",
+        "final_score": 85.58694042076168,
+        "components": [
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 84.794732723875
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 82.29070400017693
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 95.91885105841497
+          }
+        ]
+      }
+    ]
+  }
+}

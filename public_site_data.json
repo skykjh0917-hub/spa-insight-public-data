@@ -1,30 +1,67 @@
 {
   "schema_version": "spa-public-scores-v1",
   "run": {
-    "tracking_run_id": "ed92758e-b0aa-4f68-bdee-efad0efd1d5f",
-    "trading_date": "20261028",
-    "generated_at": "2026-10-28T05:51:42.231563+00:00",
-    "generated_at_kst": "2026-10-28T14:51:42.231563+09:00",
+    "tracking_run_id": "81bf96fb-1f49-4020-9fa2-aebf798ca409",
+    "trading_date": "20261029",
+    "generated_at": "2026-10-29T05:51:23.297196+00:00",
+    "generated_at_kst": "2026-10-29T14:51:23.297196+09:00",
     "run_sequence": 1
   },
   "events": {
     "intraday": [
       {
-        "stock_name": "원익홀딩스",
-        "stock_code": "030530",
-        "final_score": 68.90681378417707,
+        "stock_name": "광전자",
+        "stock_code": "017900",
+        "final_score": 65.84962832423112,
         "components": [
           {
             "name": "intraday_capital_inflow",
             "label": "장중 자금 유입",
             "status": "available",
-            "evaluation_score": 82.00459457942432
+            "evaluation_score": 90.20689473684212
           },
           {
             "name": "intraday_day_strength_breakout",
             "label": "당일 강도·돌파",
             "status": "available",
-            "evaluation_score": 51.10499911987326
+            "evaluation_score": 51.966571895022916
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 76.95765127639484
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 44.12001034878028
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "available",
+            "evaluation_score": 40.90564837664141
+          }
+        ]
+      },
+      {
+        "stock_name": "양지사",
+        "stock_code": "030960",
+        "final_score": 65.48132778767403,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 72.45382775119617
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 51.02818378121997
           },
           {
             "name": "intraday_market_group_leadership",
@@ -36,155 +73,7 @@
             "name": "intraday_quality_confirmation",
             "label": "장중 흐름 품질",
             "status": "available",
-            "evaluation_score": 54.18095073191621
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "missing",
-            "evaluation_score": null
-          }
-        ]
-      },
-      {
-        "stock_name": "안랩",
-        "stock_code": "053800",
-        "final_score": 84.96616681951504,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 85.17145339800705
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 94.35755729384064
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 82.39786808031191
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 50.63719329554136
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "missing",
-            "evaluation_score": null
-          }
-        ]
-      },
-      {
-        "stock_name": "빛과전자",
-        "stock_code": "069540",
-        "final_score": 76.27673265240531,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 92.30515789473685
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 55.00000000000001
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 82.60061198207038
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 92.09962597755866
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "available",
-            "evaluation_score": 99.70261777835678
-          }
-        ]
-      },
-      {
-        "stock_name": "빛샘전자",
-        "stock_code": "072950",
-        "final_score": 65.3448019838577,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 79.97500000000001
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 53.98053330416344
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 82.47513528264534
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 56.820751294407046
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "available",
-            "evaluation_score": 34.13486480709611
-          }
-        ]
-      },
-      {
-        "stock_name": "멜콘",
-        "stock_code": "179880",
-        "final_score": 75.20852857701286,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 100.0
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 54.87121212121212
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 86.51760135833406
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 65.21977095927271
+            "evaluation_score": 50.59839560443486
           },
           {
             "name": "program_net_quantity_to_session_volume",
@@ -199,25 +88,50 @@
       {
         "stock_name": "삼성E&A",
         "stock_code": "028050",
-        "final_score": 88.91075792115402,
+        "final_score": 83.35027776828287,
         "components": [
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 86.44050442712499
+            "evaluation_score": 80.90644696469337
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 92.00334621329047
+            "evaluation_score": 87.02263509290773
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 89.92889688626575
+            "evaluation_score": 82.92754668945649
+          }
+        ]
+      },
+      {
+        "stock_name": "루닛",
+        "stock_code": "328130",
+        "final_score": 72.84975825658458,
+        "components": [
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 80.45447423501638
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 71.67866622428666
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 50.233253070507104
           }
         ]
       }

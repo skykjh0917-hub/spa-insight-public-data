@@ -1,223 +1,62 @@
 {
   "schema_version": "spa-public-scores-v1",
   "run": {
-    "tracking_run_id": "6026d0e9-9c48-48d4-9cee-f3b1669e5555",
-    "trading_date": "20261109",
-    "generated_at": "2026-11-09T05:58:20.407650+00:00",
-    "generated_at_kst": "2026-11-09T14:58:20.407650+09:00",
+    "tracking_run_id": "c9d36fa2-4f66-4121-81f4-774fcc244055",
+    "trading_date": "20261110",
+    "generated_at": "2026-11-10T06:08:34.561565+00:00",
+    "generated_at_kst": "2026-11-10T15:08:34.561565+09:00",
     "run_sequence": 1
   },
   "events": {
-    "intraday": [
-      {
-        "stock_name": "큐에스아이",
-        "stock_code": "066310",
-        "final_score": 67.04351752714865,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 69.7255
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 50.08536560097798
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 100.0
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 77.3954541040002
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "missing",
-            "evaluation_score": null
-          }
-        ]
-      },
-      {
-        "stock_name": "머큐리",
-        "stock_code": "100590",
-        "final_score": 67.2300667474819,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 64.375
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 52.30797636632201
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 100.0
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 86.32872863579003
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "missing",
-            "evaluation_score": null
-          }
-        ]
-      },
-      {
-        "stock_name": "아시아나IDT",
-        "stock_code": "267850",
-        "final_score": 88.44509780865994,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 82.0
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 97.41490340386385
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 96.08793027602786
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 91.14763626969776
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "available",
-            "evaluation_score": 27.02366557480901
-          }
-        ]
-      },
-      {
-        "stock_name": "박셀바이오",
-        "stock_code": "323990",
-        "final_score": 74.92125348918054,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 65.4014342105263
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 77.40740740740742
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 75.0
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 93.41797588600659
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "missing",
-            "evaluation_score": null
-          }
-        ]
-      },
-      {
-        "stock_name": "에스피소프트",
-        "stock_code": "443670",
-        "final_score": 63.47755416229964,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 66.94082894736843
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 50.0
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 92.09470037838233
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 79.15258016729558
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "available",
-            "evaluation_score": 33.31684809204419
-          }
-        ]
-      }
-    ],
+    "intraday": [],
     "week": [
       {
-        "stock_name": "NAVER",
-        "stock_code": "035420",
-        "final_score": 71.90980689658564,
+        "stock_name": "대한항공",
+        "stock_code": "003490",
+        "final_score": 64.83521030367886,
         "components": [
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 82.5633861977103
+            "evaluation_score": 56.929061011625
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 57.50889656494426
+            "evaluation_score": 63.95281936631972
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 70.0
+            "evaluation_score": 93.24795346436304
+          }
+        ]
+      },
+      {
+        "stock_name": "NAVER",
+        "stock_code": "035420",
+        "final_score": 70.22799244536849,
+        "components": [
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 78.7283584705
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 56.03946631462424
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 75.0
           }
         ]
       }

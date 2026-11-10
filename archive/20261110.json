@@ -1,0 +1,65 @@
+{
+  "schema_version": "spa-public-scores-v1",
+  "run": {
+    "tracking_run_id": "c9d36fa2-4f66-4121-81f4-774fcc244055",
+    "trading_date": "20261110",
+    "generated_at": "2026-11-10T06:08:34.561565+00:00",
+    "generated_at_kst": "2026-11-10T15:08:34.561565+09:00",
+    "run_sequence": 1
+  },
+  "events": {
+    "intraday": [],
+    "week": [
+      {
+        "stock_name": "대한항공",
+        "stock_code": "003490",
+        "final_score": 64.83521030367886,
+        "components": [
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 56.929061011625
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 63.95281936631972
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 93.24795346436304
+          }
+        ]
+      },
+      {
+        "stock_name": "NAVER",
+        "stock_code": "035420",
+        "final_score": 70.22799244536849,
+        "components": [
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 78.7283584705
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 56.03946631462424
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 75.0
+          }
+        ]
+      }
+    ]
+  }
+}

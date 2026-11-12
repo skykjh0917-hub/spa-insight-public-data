@@ -7,8 +7,8 @@
     "generated_at_kst": "2026-11-12T15:03:35.536231+09:00",
     "run_sequence": 1,
     "correction": {
-      "corrected_at": "2026-11-12T06:37:58.437271+00:00",
-      "reason": "가격 자료 연결 오류 정정 · 원래 실행 저장자료 재생"
+      "corrected_at": "2026-11-12T07:59:09.115588+00:00",
+      "reason": "승인된 스윙 필수 조건 및 30/30/20/20 배점 적용 · 원래 실행 저장자료 재생"
     }
   },
   "events": {
@@ -147,8 +147,14 @@
       {
         "stock_name": "대한항공",
         "stock_code": "003490",
-        "final_score": 67.5607775519737,
+        "final_score": 63.758330872783205,
         "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 93.0111856823266
+          },
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
@@ -166,51 +172,20 @@
             "label": "스윙 거래대금 집중",
             "status": "available",
             "evaluation_score": 16.0
-          },
-          {
-            "name": "trend_stability",
-            "label": "추세 안정성",
-            "status": "available",
-            "evaluation_score": 93.0111856823266
-          }
-        ]
-      },
-      {
-        "stock_name": "NAVER",
-        "stock_code": "035420",
-        "final_score": 66.74845311301242,
-        "components": [
-          {
-            "name": "week_supply_quality",
-            "label": "스윙 외국인·기관 종합수급",
-            "status": "available",
-            "evaluation_score": 100.0
-          },
-          {
-            "name": "week_trend_structure",
-            "label": "스윙 추세전환 구조",
-            "status": "available",
-            "evaluation_score": 70.2422655650621
-          },
-          {
-            "name": "week_liquidity_confirmation",
-            "label": "스윙 거래대금 집중",
-            "status": "available",
-            "evaluation_score": 77.0
-          },
-          {
-            "name": "trend_stability",
-            "label": "추세 안정성",
-            "status": "available",
-            "evaluation_score": 0.0
           }
         ]
       },
       {
         "stock_name": "셀트리온",
         "stock_code": "068270",
-        "final_score": 68.94800539140525,
+        "final_score": 67.41796595119206,
         "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 88.33848835108765
+          },
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
@@ -228,12 +203,37 @@
             "label": "스윙 거래대금 집중",
             "status": "available",
             "evaluation_score": 34.0
-          },
+          }
+        ]
+      },
+      {
+        "stock_name": "아시아나IDT",
+        "stock_code": "267850",
+        "final_score": 62.506765227254725,
+        "components": [
           {
             "name": "trend_stability",
             "label": "추세 안정성",
             "status": "available",
-            "evaluation_score": 88.33848835108765
+            "evaluation_score": 90.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 37.94752302932402
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 85.49999999999999
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 35.11254159228759
           }
         ]
       }

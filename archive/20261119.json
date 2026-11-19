@@ -1,0 +1,170 @@
+{
+  "schema_version": "spa-public-scores-v1",
+  "run": {
+    "tracking_run_id": "c969f76a-2142-4d9b-ad9d-c145ccc23650",
+    "trading_date": "20261119",
+    "generated_at": "2026-11-19T05:51:58.264653+00:00",
+    "generated_at_kst": "2026-11-19T14:51:58.264653+09:00",
+    "run_sequence": 1
+  },
+  "events": {
+    "intraday": [],
+    "week": [
+      {
+        "stock_name": "원익홀딩스",
+        "stock_code": "030530",
+        "final_score": 72.85644604514727,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 78.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 61.18815348382422
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 80.5
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 75.0
+          }
+        ]
+      },
+      {
+        "stock_name": "JYP Ent.",
+        "stock_code": "035900",
+        "final_score": 67.43384699557495,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 28.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 88.58430456693539
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 90.29277812747166
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 72.0
+          }
+        ]
+      },
+      {
+        "stock_name": "제주항공",
+        "stock_code": "089590",
+        "final_score": 70.11291866724382,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 90.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 59.16806222414607
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 66.8125
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 60.0
+          }
+        ]
+      },
+      {
+        "stock_name": "한진칼",
+        "stock_code": "180640",
+        "final_score": 67.84834938739174,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 70.03319035375
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 72.19196140633368
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 12.0
+          }
+        ]
+      },
+      {
+        "stock_name": "아리바이오랩",
+        "stock_code": "261780",
+        "final_score": 73.95375118378,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 46.3291706126
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 79.27499999999999
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 71.0
+          }
+        ]
+      }
+    ]
+  }
+}

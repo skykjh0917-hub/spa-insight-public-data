@@ -1,6 +1,14 @@
 {
   "days": [
     {
+      "trading_date": "20261119",
+      "generated_at_kst": "2026-11-19T14:51:58.264653+09:00",
+      "run_sequence": 1,
+      "path": "archive/20261119.json",
+      "intraday_count": 0,
+      "swing_count": 5
+    },
+    {
       "trading_date": "20261118",
       "generated_at_kst": "2026-11-18T14:54:26.736207+09:00",
       "run_sequence": 1,

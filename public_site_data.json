@@ -1,30 +1,30 @@
 {
   "schema_version": "spa-public-scores-v1",
   "run": {
-    "tracking_run_id": "48702919-4837-41e2-9826-fef4ac7200a7",
-    "trading_date": "20261125",
-    "generated_at": "2026-11-25T05:44:29.647393+00:00",
-    "generated_at_kst": "2026-11-25T14:44:29.647393+09:00",
+    "tracking_run_id": "a6acc773-81ac-4b24-b0e2-7efdc0b7c1aa",
+    "trading_date": "20261126",
+    "generated_at": "2026-11-26T05:50:52.299589+00:00",
+    "generated_at_kst": "2026-11-26T14:50:52.299589+09:00",
     "run_sequence": 1
   },
   "events": {
     "intraday": [
       {
-        "stock_name": "다올투자증권",
-        "stock_code": "030210",
-        "final_score": 67.5174515884496,
+        "stock_name": "깨끗한나라",
+        "stock_code": "004540",
+        "final_score": 66.33072510799114,
         "components": [
           {
             "name": "intraday_capital_inflow",
             "label": "장중 자금 유입",
             "status": "available",
-            "evaluation_score": 35.084183786009795
+            "evaluation_score": 71.85052631578948
           },
           {
             "name": "intraday_day_strength_breakout",
             "label": "당일 강도·돌파",
             "status": "available",
-            "evaluation_score": 73.02303386951179
+            "evaluation_score": 52.12364350034634
           },
           {
             "name": "intraday_market_group_leadership",
@@ -36,7 +36,7 @@
             "name": "intraday_quality_confirmation",
             "label": "장중 흐름 품질",
             "status": "available",
-            "evaluation_score": 80.38749135943249
+            "evaluation_score": 47.70309628700248
           },
           {
             "name": "program_net_quantity_to_session_volume",
@@ -48,14 +48,14 @@
             "name": "trend_stability",
             "label": "추세 안정성",
             "status": "available",
-            "evaluation_score": 78.49148048168202
+            "evaluation_score": 80.25314946548494
           }
         ]
       },
       {
         "stock_name": "안랩",
         "stock_code": "053800",
-        "final_score": 96.6314925967016,
+        "final_score": 70.44485403282175,
         "components": [
           {
             "name": "intraday_capital_inflow",
@@ -67,25 +67,25 @@
             "name": "intraday_day_strength_breakout",
             "label": "당일 강도·돌파",
             "status": "available",
-            "evaluation_score": 97.10905349794238
+            "evaluation_score": 55.69848771458141
           },
           {
             "name": "intraday_market_group_leadership",
             "label": "업종·시장 동시 강세·주도력",
             "status": "available",
-            "evaluation_score": 100.0
+            "evaluation_score": 35.47123997789537
           },
           {
             "name": "intraday_quality_confirmation",
             "label": "장중 흐름 품질",
             "status": "available",
-            "evaluation_score": 87.58276804697782
+            "evaluation_score": 57.78319111694303
           },
           {
             "name": "program_net_quantity_to_session_volume",
             "label": "거래량 대비 프로그램 순매수",
             "status": "available",
-            "evaluation_score": 77.70094135447991
+            "evaluation_score": 32.49880446468846
           },
           {
             "name": "trend_stability",
@@ -96,33 +96,33 @@
         ]
       },
       {
-        "stock_name": "KH바텍",
-        "stock_code": "060720",
-        "final_score": 81.26344733839424,
+        "stock_name": "미래에셋벤처투자",
+        "stock_code": "100790",
+        "final_score": 81.7427538598682,
         "components": [
           {
             "name": "intraday_capital_inflow",
             "label": "장중 자금 유입",
             "status": "available",
-            "evaluation_score": 88.44999999999999
+            "evaluation_score": 93.69494736842105
           },
           {
             "name": "intraday_day_strength_breakout",
             "label": "당일 강도·돌파",
             "status": "available",
-            "evaluation_score": 83.95041624352115
+            "evaluation_score": 88.37949911868031
           },
           {
             "name": "intraday_market_group_leadership",
             "label": "업종·시장 동시 강세·주도력",
             "status": "available",
-            "evaluation_score": 75.0
+            "evaluation_score": 100.0
           },
           {
             "name": "intraday_quality_confirmation",
             "label": "장중 흐름 품질",
             "status": "available",
-            "evaluation_score": 55.26588270062723
+            "evaluation_score": 60.146805738743545
           },
           {
             "name": "program_net_quantity_to_session_volume",
@@ -134,26 +134,26 @@
             "name": "trend_stability",
             "label": "추세 안정성",
             "status": "available",
-            "evaluation_score": 84.52360677452934
+            "evaluation_score": 48.562493729047056
           }
         ]
       },
       {
-        "stock_name": "파수AI",
-        "stock_code": "150900",
-        "final_score": 88.73832681218437,
+        "stock_name": "아리바이오랩",
+        "stock_code": "261780",
+        "final_score": 73.60278944264687,
         "components": [
           {
             "name": "intraday_capital_inflow",
             "label": "장중 자금 유입",
             "status": "available",
-            "evaluation_score": 72.9714210526316
+            "evaluation_score": 71.09440350877195
           },
           {
             "name": "intraday_day_strength_breakout",
             "label": "당일 강도·돌파",
             "status": "available",
-            "evaluation_score": 91.23062015503878
+            "evaluation_score": 50.0
           },
           {
             "name": "intraday_market_group_leadership",
@@ -165,50 +165,7 @@
             "name": "intraday_quality_confirmation",
             "label": "장중 흐름 품질",
             "status": "available",
-            "evaluation_score": 92.2289156626506
-          },
-          {
-            "name": "program_net_quantity_to_session_volume",
-            "label": "거래량 대비 프로그램 순매수",
-            "status": "available",
-            "evaluation_score": 86.83725856995669
-          },
-          {
-            "name": "trend_stability",
-            "label": "추세 안정성",
-            "status": "available",
-            "evaluation_score": 100.0
-          }
-        ]
-      },
-      {
-        "stock_name": "지니언스",
-        "stock_code": "263860",
-        "final_score": 78.1616181306289,
-        "components": [
-          {
-            "name": "intraday_capital_inflow",
-            "label": "장중 자금 유입",
-            "status": "available",
-            "evaluation_score": 100.0
-          },
-          {
-            "name": "intraday_day_strength_breakout",
-            "label": "당일 강도·돌파",
-            "status": "available",
-            "evaluation_score": 53.505888406326164
-          },
-          {
-            "name": "intraday_market_group_leadership",
-            "label": "업종·시장 동시 강세·주도력",
-            "status": "available",
-            "evaluation_score": 99.63764744091414
-          },
-          {
-            "name": "intraday_quality_confirmation",
-            "label": "장중 흐름 품질",
-            "status": "available",
-            "evaluation_score": 55.62711537791887
+            "evaluation_score": 96.4904909332154
           },
           {
             "name": "program_net_quantity_to_session_volume",
@@ -221,15 +178,89 @@
             "label": "추세 안정성",
             "status": "available",
             "evaluation_score": 100.0
+          }
+        ]
+      },
+      {
+        "stock_name": "스피어",
+        "stock_code": "347700",
+        "final_score": 77.66851229102942,
+        "components": [
+          {
+            "name": "intraday_capital_inflow",
+            "label": "장중 자금 유입",
+            "status": "available",
+            "evaluation_score": 77.78493967836786
+          },
+          {
+            "name": "intraday_day_strength_breakout",
+            "label": "당일 강도·돌파",
+            "status": "available",
+            "evaluation_score": 89.28219210440844
+          },
+          {
+            "name": "intraday_market_group_leadership",
+            "label": "업종·시장 동시 강세·주도력",
+            "status": "available",
+            "evaluation_score": 96.51614941715461
+          },
+          {
+            "name": "intraday_quality_confirmation",
+            "label": "장중 흐름 품질",
+            "status": "available",
+            "evaluation_score": 66.18668217109422
+          },
+          {
+            "name": "program_net_quantity_to_session_volume",
+            "label": "거래량 대비 프로그램 순매수",
+            "status": "available",
+            "evaluation_score": 100.0
+          },
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 38.021513173797395
           }
         ]
       }
     ],
     "week": [
       {
+        "stock_name": "대한광통신",
+        "stock_code": "010170",
+        "final_score": 68.77316280693934,
+        "components": [
+          {
+            "name": "trend_stability",
+            "label": "추세 안정성",
+            "status": "available",
+            "evaluation_score": 91.65283243002459
+          },
+          {
+            "name": "week_supply_quality",
+            "label": "스윙 외국인·기관 종합수급",
+            "status": "available",
+            "evaluation_score": 75.43432592997466
+          },
+          {
+            "name": "week_trend_structure",
+            "label": "스윙 추세전환 구조",
+            "status": "available",
+            "evaluation_score": 61.98829570176435
+          },
+          {
+            "name": "week_liquidity_confirmation",
+            "label": "스윙 거래대금 집중",
+            "status": "available",
+            "evaluation_score": 31.24678079293349
+          }
+        ]
+      },
+      {
         "stock_name": "안랩",
         "stock_code": "053800",
-        "final_score": 71.90551945993747,
+        "final_score": 74.025,
         "components": [
           {
             "name": "trend_stability",
@@ -241,88 +272,57 @@
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 36.242286879444464
+            "evaluation_score": 44.75
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 59.91609899067926
+            "evaluation_score": 70.0
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 95.24806798984137
+            "evaluation_score": 83.0
           }
         ]
       },
       {
-        "stock_name": "로보티즈",
-        "stock_code": "108490",
-        "final_score": 74.3173886399057,
+        "stock_name": "셀트리온",
+        "stock_code": "068270",
+        "final_score": 65.86451827640047,
         "components": [
           {
             "name": "trend_stability",
             "label": "추세 안정성",
             "status": "available",
-            "evaluation_score": 76.73804307060655
+            "evaluation_score": 91.55251099003456
           },
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 74.0121424266704
+            "evaluation_score": 63.457309951987604
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 76.4616649536131
+            "evaluation_score": 51.80785996896914
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 69.0
+            "evaluation_score": 45.0
           }
         ]
       },
       {
         "stock_name": "파수AI",
         "stock_code": "150900",
-        "final_score": 72.17564924118933,
-        "components": [
-          {
-            "name": "trend_stability",
-            "label": "추세 안정성",
-            "status": "available",
-            "evaluation_score": 90.0
-          },
-          {
-            "name": "week_supply_quality",
-            "label": "스윙 외국인·기관 종합수급",
-            "status": "available",
-            "evaluation_score": 77.5143174187
-          },
-          {
-            "name": "week_trend_structure",
-            "label": "스윙 추세전환 구조",
-            "status": "available",
-            "evaluation_score": 65.77499999999999
-          },
-          {
-            "name": "week_liquidity_confirmation",
-            "label": "스윙 거래대금 집중",
-            "status": "available",
-            "evaluation_score": 43.83177007789674
-          }
-        ]
-      },
-      {
-        "stock_name": "한진칼",
-        "stock_code": "180640",
-        "final_score": 68.43227569668194,
+        "final_score": 75.0473130095485,
         "components": [
           {
             "name": "trend_stability",
@@ -334,50 +334,50 @@
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 46.434273419319524
+            "evaluation_score": 69.84242767072146
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 71.50996835443037
+            "evaluation_score": 73.0
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 51.0
+            "evaluation_score": 47.472923541660315
           }
         ]
       },
       {
-        "stock_name": "삼현",
-        "stock_code": "437730",
-        "final_score": 63.866472061125606,
+        "stock_name": "글로벌텍스프리",
+        "stock_code": "204620",
+        "final_score": 74.36216491590037,
         "components": [
           {
             "name": "trend_stability",
             "label": "추세 안정성",
             "status": "available",
-            "evaluation_score": 78.0
+            "evaluation_score": 97.9208736291704
           },
           {
             "name": "week_supply_quality",
             "label": "스윙 외국인·기관 종합수급",
             "status": "available",
-            "evaluation_score": 65.19617453680625
+            "evaluation_score": 81.98568070540256
           },
           {
             "name": "week_trend_structure",
             "label": "스윙 추세전환 구조",
             "status": "available",
-            "evaluation_score": 89.53809850041867
+            "evaluation_score": 80.06173823100727
           },
           {
             "name": "week_liquidity_confirmation",
             "label": "스윙 거래대금 집중",
             "status": "available",
-            "evaluation_score": 15.0
+            "evaluation_score": 21.889254846635144
           }
         ]
       }
